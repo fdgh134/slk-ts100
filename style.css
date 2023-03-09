@@ -1,0 +1,37 @@
+body {
+  width: 100%;
+}
+@media (min-width: 992px ) and (min-width: 1200px ) {
+  
+  .detail_page{
+    width: 860px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .detail_page{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .detail_page>img {
+    width:100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .detail_page{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .detail_page>img {
+    width:100%;
+  }
+}
